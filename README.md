@@ -368,7 +368,7 @@ saveRDS(filtered_obj, "filtered_seurat_object.rds")
 
 ## 作者
 
-**Zhijun Feng (冯志军)**
+**Zhijun Feng**
 
 - **邮箱**: fenzhj18@sina.com / xiaoqqjun@sina.com
 - **GitHub**: https://github.com/xiaoqqjun/scNoiseFilter
