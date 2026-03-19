@@ -6,14 +6,14 @@
 
 scNoiseFilter 是一个用于单细胞 RNA-seq 数据噪音基因识别和过滤的 R 包。支持小鼠、大鼠和人类三种物种，提供 7 类噪音基因的自动识别和过滤功能。
 
-## 安装
+## 安装 / Github
 
 ```r
-# 从本地源码安装
-install.packages("/path/to/scNoiseFilter", repos = NULL, type = "source")
+# Install devtools first if needed
+install.packages("devtools")
 
-# 或使用 devtools
-devtools::install_local("/path/to/scNoiseFilter")
+# Install autoSeurat
+devtools::install_github("xiaoqqjun/scNoiseFilter")
 ```
 
 ## 快速开始
